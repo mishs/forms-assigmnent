@@ -4,12 +4,9 @@
 	<title>Forms and Views</title>
 </head>
 <body>
-	{!! Form::open(['url' => 'viewwithaform', 'method'=>'post']) !!}
-    //  {!! Form::open(['url' => 'calculate', 'method' => 'post', 'get']) !!}
-	{!! Form::label('first-number', 'First Number') !!}
-	{!! Form::text('first-number-input', '') !!}
-	{!! Form::submit('Submit'); !!}
-
+	{!! Form::open(['url' => '/formscalc', 'method'=>'post']) !!}
+	{!! Form::label('number', 'Number') !!}
+	{!! Form::text('numberinput', '') !!}
+	{!! Form::submit( 'Submit1', ['name' => 'submitbutton', 'value' => 'Submit1'])!!}
     {!! Form::close() !!}
-
 </body>

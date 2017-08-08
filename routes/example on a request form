@@ -1,0 +1,10 @@
+{
+	url: /forms,
+	method: post,
+	csrf: asdasdasdasaf123434
+	body: [
+		key => asd,
+		inputnum1 => ásdadsas
+		numberinput => 4443
+	]
+}
